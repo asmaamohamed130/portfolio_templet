@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+.navbar .logo{
+    cursor: pointer;
+    width: 200px;
+   
+}
+.navbar .logo .logostyle1{
+    font-family: cursive;
+    font-size: 40px;
+    color: darkcyan;
+}
+.navbar .logo .logostyle2{
+    margin-left: -4px;
+    font-family: monospace;
+    font-size: 40px;
+    color: indianred;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkcyan;
+    transition: 0.5 ease-in;
+}
+ul li a:hover{
+    color: indianred;
+    text-decoration: underline;
+}
+.info{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: darkcyan;
+}
+.info h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.info span{
+    color: indianred;
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background-color: darkcyan;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 8px 10px ;
+    margin-top: 20px;
+    transition: 0.5 ease-out;
+}
+.info a:hover{
+    background-color: indianred;
+}.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    bottom: 0;
+    height: 140%;
+    right: -20%;
+    transition: 2s ease;
+}
+.image img:hover {
+    right: 40%;
+}
+
+.icons{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.icons i{
+    margin-left: 10px;
+    font-size: 30px;
+    color: darkcyan;
+    transition: 0.4s ease;
+}
+.icons i:hover{
+    font-size: 50px;
+    color: indianred;
+    
+}
